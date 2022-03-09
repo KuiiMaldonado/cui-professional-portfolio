@@ -5,7 +5,6 @@ html{
 
 body{
     font-family: 'Roboto Slob', serif;
-    margin: 0.8rem;
 }
 
 h1{
@@ -16,14 +15,26 @@ h1{
 .navbar{
     display: flex;
     justify-content: space-between;
+    background-color: #5AB0B7;
+    color: #FFF;
+}
+
+.navbar h1{
+    margin: 0.8rem;
 }
 
 .navbar ul{
     display: flex;
+    flex-wrap: wrap;
     margin: 0.2rem;
 }
 
 .navbar li{
-    margin: 1rem;
+    margin: 1.5rem;
     font-size: 1.3rem;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #FFF;
 }
