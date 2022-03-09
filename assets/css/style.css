@@ -11,6 +11,14 @@ h1{
     font-size: 2.5rem;
 }
 
+h2{
+    font-size: 1.8rem;
+}
+
+a {
+    text-decoration: none;
+}
+
 /*Navbar styles*/
 .navbar{
     display: flex;
@@ -35,6 +43,23 @@ h1{
 }
 
 .navbar a{
-    text-decoration: none;
     color: #FFF;
+}
+
+/*Sections styles*/
+.sections{
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contact-links{
+    display: flex;
+}
+
+#contact-links li{
+    margin: 0rem 1.5rem;
 }
