@@ -1,0 +1,40 @@
+/* General styles*/
+html{
+    font-size: 20px;
+}
+
+body{
+    font-family: 'Roboto Slob', serif;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+/*Navbar styles*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #5AB0B7;
+    color: #FFF;
+}
+
+.navbar h1{
+    margin: 0.8rem;
+}
+
+.navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.2rem;
+}
+
+.navbar li{
+    margin: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #FFF;
+}
