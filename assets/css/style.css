@@ -51,16 +51,24 @@ a {
 
 }
 
+.container{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
 .section-header{
     width: 50%;
 }
 
-.section-content{
-    width: 50%;
+.section-header h2{
+    position: relative;
+    left: 40%;
+    top: 50%;
 }
 
-.container{
-    display: flex;
+.section-content{
+    width: 50%;
 }
 
 #contact-links{
