@@ -15,7 +15,7 @@ h2{
     font-size: 1.8rem;
 }
 
-a {
+a{
     text-decoration: none;
 }
 
@@ -69,6 +69,18 @@ a {
 
 .section-content{
     width: 50%;
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-card{
+    margin: 1rem;
+    flex-basis: 40%;
+}
+
+.main-project{
+    flex-basis: 100%;
 }
 
 #contact-links{
