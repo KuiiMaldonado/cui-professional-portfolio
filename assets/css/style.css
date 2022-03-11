@@ -11,6 +11,14 @@ h1{
     font-size: 2.5rem;
 }
 
+h2{
+    font-size: 1.8rem;
+}
+
+a{
+    text-decoration: none;
+}
+
 /*Navbar styles*/
 .navbar{
     display: flex;
@@ -35,6 +43,50 @@ h1{
 }
 
 .navbar a{
-    text-decoration: none;
     color: #FFF;
+}
+
+/*Sections styles*/
+.sections{
+
+}
+
+.container{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.section-header{
+    width: 50%;
+}
+
+.section-header h2{
+    position: relative;
+    left: 40%;
+    top: 50%;
+}
+
+.section-content{
+    width: 50%;
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-card{
+    margin: 1rem;
+    flex-basis: 40%;
+}
+
+.main-project{
+    flex-basis: 100%;
+}
+
+#contact-links{
+    display: flex;
+}
+
+#contact-links li{
+    margin: 0rem 1.5rem;
 }
