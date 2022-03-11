@@ -88,5 +88,22 @@ a{
 }
 
 #contact-links li{
-    margin: 0rem 1.5rem;
+    margin: 0 1.5rem;
+}
+
+/* Media queries */
+@media screen and (max-width: 1200px) {
+    html{
+        font-size: 18px;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    html{
+        font-size: 15px;
+    }
 }
