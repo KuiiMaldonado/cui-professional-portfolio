@@ -55,6 +55,10 @@ p{
     font-size: 1.3rem;
 }
 
+.navbar a:hover{
+    color: #202829;
+}
+
 /*Sections styles*/
 
 .container{
@@ -100,6 +104,10 @@ p{
 #contact-links li{
     margin: 0 1rem;
     text-align: center;
+}
+
+#contact-links a:hover{
+    color: var(--light-blue);
 }
 
 /* Media queries */
