@@ -117,6 +117,7 @@ p{
 #contact-links li{
     margin: 0 1rem;
     text-align: center;
+    font-size: 1.2rem;
 }
 
 #contact-links a:hover{
