@@ -93,6 +93,10 @@ a{
 
 /* Media queries */
 @media screen and (max-width: 2000px) {
+    .project-card img{
+        width: 400px;
+    }
+
     .main-project img{
         width: 850px;
     }
