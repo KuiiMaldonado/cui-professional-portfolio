@@ -11,8 +11,6 @@ html{
 
 body{
     font-family: 'Roboto Slob', serif;
-    /*background-color: #DCE8F2;*/
-    /*background-color: #E8F5FF;*/
     background-color: #494C52;
 }
 
@@ -86,10 +84,22 @@ p{
 .project-card{
     margin: 1rem;
     flex-basis: 40%;
+    position: relative;
 }
 
 .project-card img{
     border: 0.3rem solid #FFF;
+}
+
+.project-banner{
+    position: absolute;
+    top: 70%;
+}
+
+.project-banner p{
+    padding-left: 1rem;
+    background-color: #FFF;
+    color: #202829;
 }
 
 .main-project{
@@ -156,7 +166,7 @@ p{
 
 @media screen and (max-width: 1000px) {
     html{
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .project-card img{
@@ -173,9 +183,12 @@ p{
 }
 
 @media screen and (max-width: 800px) {
+    html{
+        font-size: 13px;
+    }
 
     .project-card img{
-        width: 120px;
+        width: 150px;
     }
 
     .main-project img{
