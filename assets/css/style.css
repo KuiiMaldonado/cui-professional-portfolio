@@ -166,6 +166,10 @@ p{
     .main-project img{
         width: 400px;
     }
+
+    #profile-picture{
+        width: 250px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -176,6 +180,10 @@ p{
 
     .main-project img{
         width: 300px;
+    }
+
+    #profile-picture{
+        width: 200px;
     }
 }
 
@@ -199,11 +207,19 @@ p{
     #contact-links li{
         margin: 0.5rem 1rem;
     }
+
+    #profile-picture{
+        width: 150px;
+    }
 }
 
 @media screen and (max-width: 450px) {
     .main-project img{
         width: 150px;
+    }
+
+    #profile-picture{
+        width: 100px;
     }
 }
 
