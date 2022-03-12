@@ -51,18 +51,16 @@ p{
 }
 
 /*Sections styles*/
-.sections{
-
-}
-
 .container{
     display: flex;
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 .section-header{
     width: 50%;
+    border-right: 0.5rem solid #5AB0B7;
 }
 
 .section-header h2{
@@ -75,6 +73,7 @@ p{
     padding: 0.5rem;
     display: flex;
     flex-wrap: wrap;
+    /*border-bottom: 0.5rem solid #5AB0B7;*/
 }
 
 .project-card{
