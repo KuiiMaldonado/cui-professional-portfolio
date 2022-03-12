@@ -1,10 +1,19 @@
+/* variables */
+:root{
+    --light-blue: #5AB0B7;
+}
+
 /* General styles*/
 html{
     font-size: 20px;
+    color: #FFF;
 }
 
 body{
     font-family: 'Roboto Slob', serif;
+    /*background-color: #DCE8F2;*/
+    /*background-color: #E8F5FF;*/
+    background-color: #494C52;
 }
 
 h1{
@@ -17,6 +26,7 @@ h2{
 
 a{
     text-decoration: none;
+    color: #FFF;
 }
 
 p{
@@ -27,8 +37,7 @@ p{
 .navbar{
     display: flex;
     justify-content: space-between;
-    background-color: #5AB0B7;
-    color: #FFF;
+    background-color: var(--light-blue);
 }
 
 .navbar h1{
@@ -46,27 +55,25 @@ p{
     font-size: 1.3rem;
 }
 
-.navbar a{
-    color: #FFF;
+.navbar a:hover{
+    color: #202829;
 }
 
 /*Sections styles*/
-.sections{
-
-}
 
 .container{
     display: flex;
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 .section-header{
     width: 50%;
+    border-right: 0.5rem solid var(--light-blue);
 }
 
 .section-header h2{
-    position: relative;
     text-align: center;
 }
 
@@ -82,6 +89,10 @@ p{
     flex-basis: 40%;
 }
 
+.project-card img{
+    border: 0.3rem solid #FFF;
+}
+
 .main-project{
     flex-basis: 100%;
 }
@@ -93,6 +104,10 @@ p{
 #contact-links li{
     margin: 0 1rem;
     text-align: center;
+}
+
+#contact-links a:hover{
+    color: var(--light-blue);
 }
 
 /* Media queries */
