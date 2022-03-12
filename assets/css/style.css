@@ -87,6 +87,10 @@ p{
     position: relative;
 }
 
+.project-card:hover{
+    filter: blur(2px);
+}
+
 .project-card img{
     border: 0.3rem solid #FFF;
 }
