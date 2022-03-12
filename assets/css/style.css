@@ -1,3 +1,8 @@
+/* variables */
+:root{
+    --light-blue: #5AB0B7;
+}
+
 /* General styles*/
 html{
     font-size: 20px;
@@ -27,7 +32,7 @@ p{
 .navbar{
     display: flex;
     justify-content: space-between;
-    background-color: #5AB0B7;
+    background-color: var(--light-blue);
     color: #FFF;
 }
 
@@ -60,11 +65,10 @@ p{
 
 .section-header{
     width: 50%;
-    border-right: 0.5rem solid #5AB0B7;
+    border-right: 0.5rem solid var(--light-blue);
 }
 
 .section-header h2{
-    position: relative;
     text-align: center;
 }
 
@@ -73,7 +77,6 @@ p{
     padding: 0.5rem;
     display: flex;
     flex-wrap: wrap;
-    /*border-bottom: 0.5rem solid #5AB0B7;*/
 }
 
 .project-card{
