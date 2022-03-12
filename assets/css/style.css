@@ -69,12 +69,15 @@ p{
 }
 
 .section-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 50%;
     border-right: 0.5rem solid var(--light-blue);
 }
 
 .section-header h2{
-    text-align: center;
+    align-items: center;
 }
 
 .section-content{
@@ -108,6 +111,10 @@ p{
 
 #contact-links a:hover{
     color: var(--light-blue);
+}
+
+#profile-picture{
+    width: 300px;
 }
 
 /* Media queries */
