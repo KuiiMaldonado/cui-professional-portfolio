@@ -88,7 +88,6 @@ a{
 
 #contact-links li{
     margin: 0 1rem;
-    flex: 1 1 33%;
     text-align: center;
 }
 
@@ -141,7 +140,18 @@ a{
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
+
+    .project-card img{
+        width: 150px;
+    }
+
+    .main-project img{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 600px) {
     html{
         font-size: 12px;
     }
@@ -152,5 +162,23 @@ a{
 
     .main-project img{
         width: 150px;
+    }
+
+    #contact-links{
+        flex-direction: column;
+    }
+
+    #contact-links li{
+        margin: 0.5rem 1rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .project-card img{
+        width: 80px;
+    }
+
+    .main-project img{
+        width: 120px;
     }
 }
