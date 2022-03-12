@@ -103,6 +103,10 @@ a{
 }
 
 @media screen and (max-width: 1800px) {
+    .project-card img{
+        width: 300px;
+    }
+
     .main-project img{
         width: 600px;
     }
@@ -143,7 +147,7 @@ a{
 @media screen and (max-width: 800px) {
 
     .project-card img{
-        width: 150px;
+        width: 120px;
     }
 
     .main-project img{
@@ -157,11 +161,11 @@ a{
     }
 
     .project-card img{
-        width: 100px;
+        width: 150px;
     }
 
     .main-project img{
-        width: 150px;
+        width: 200px;
     }
 
     #contact-links{
@@ -173,9 +177,15 @@ a{
     }
 }
 
+@media screen and (max-width: 450px) {
+    .main-project img{
+        width: 150px;
+    }
+}
+
 @media screen and (max-width: 300px) {
     .project-card img{
-        width: 80px;
+        width: 120px;
     }
 
     .main-project img{
