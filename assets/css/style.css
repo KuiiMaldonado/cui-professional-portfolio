@@ -63,8 +63,7 @@ a{
 
 .section-header h2{
     position: relative;
-    left: 40%;
-    top: 50%;
+    text-align: center;
 }
 
 .section-content{
@@ -124,6 +123,10 @@ a{
     .main-project img{
         width: 550px;
     }
+
+    #contact-links{
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -141,6 +144,10 @@ a{
 }
 
 @media screen and (max-width: 500px) {
+    html{
+        font-size: 12px;
+    }
+
     .project-card img{
         width: 100px;
     }
