@@ -6,10 +6,14 @@
 /* General styles*/
 html{
     font-size: 20px;
+    color: #FFF;
 }
 
 body{
     font-family: 'Roboto Slob', serif;
+    /*background-color: #DCE8F2;*/
+    /*background-color: #E8F5FF;*/
+    background-color: #494C52;
 }
 
 h1{
@@ -22,6 +26,7 @@ h2{
 
 a{
     text-decoration: none;
+    color: #FFF;
 }
 
 p{
@@ -33,7 +38,6 @@ p{
     display: flex;
     justify-content: space-between;
     background-color: var(--light-blue);
-    color: #FFF;
 }
 
 .navbar h1{
@@ -51,11 +55,8 @@ p{
     font-size: 1.3rem;
 }
 
-.navbar a{
-    color: #FFF;
-}
-
 /*Sections styles*/
+
 .container{
     display: flex;
     margin-top: 1rem;
@@ -82,6 +83,10 @@ p{
 .project-card{
     margin: 1rem;
     flex-basis: 40%;
+}
+
+.project-card img{
+    border: 0.3rem solid #FFF;
 }
 
 .main-project{
