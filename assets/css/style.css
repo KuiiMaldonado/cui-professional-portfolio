@@ -126,8 +126,14 @@ p{
 
 #profile-picture{
     width: 400px;
+    height: 400px;
+    overflow: hidden;
     margin-top: 1rem;
     border: 0.5rem inset var(--light-blue);
+}
+
+#aboutMe {
+    font-size: 1.3rem;
 }
 
 /* Media queries */
